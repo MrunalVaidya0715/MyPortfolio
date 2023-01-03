@@ -20,25 +20,25 @@ function Navbar() {
         <div>
           <ul className='hidden md:flex'>
             <Link href="/">
-              <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
+              <li className='ml-10 text-lg uppercase border-b-2 hover:text-blue-400 hover:border-b-2 hover:border-black/60 ease-in duration-300'>Home</li>
             </Link>
             <Link href="/">
-              <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
+              <li className='ml-10 text-lg uppercase border-b-2 hover:text-blue-400 hover:border-b-2 hover:border-black/60 ease-in duration-300'>About</li>
             </Link>
             <Link href="/">
-              <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
+              <li className='ml-10 text-lg uppercase border-b-2 hover:text-blue-400 hover:border-b-2 hover:border-black/60 ease-in duration-300'>Skills</li>
             </Link>
             <Link href="/">
-              <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
+              <li className='ml-10 text-lg uppercase border-b-2 hover:text-blue-400 hover:border-b-2 hover:border-black/60 ease-in duration-300'>Projects</li>
             </Link>
             <Link href="/">
-              <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
+              <li className='ml-10 text-lg uppercase border-b-2 hover:text-blue-400 hover:border-b-2 hover:border-black/60 ease-in duration-300'>Contact</li>
             </Link>
 
           </ul>
-          <div onClick={handleNav} className='md:hidden mr-8'>
+          <div onClick={handleNav} className='md:hidden mr-8 cursor-pointer'>
 
-            <AiOutlineMenu size={25} />
+            <AiOutlineMenu size={25} className="hover:text-blue-400 ease-in duration-200" />
           </div>
 
 
@@ -65,7 +65,7 @@ function Navbar() {
 
 
           </div>
-          <div className='py-4 flex flex-col justify-between'>
+          <div className='py-4  flex flex-col justify-between'>
             <ul className='uppercase ' >
               <Link href='/'>
                 <li className='py-3 m-3 text-sm hover:text-blue-400 hover:font-bold  ease-in-out duration-300'>Home</li>
@@ -84,31 +84,33 @@ function Navbar() {
               </Link>
 
             </ul>
-            <div className=''>
-              <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
+            
+          </div>
+          <div className='flex flex-col absolute bottom-10'>
+              <p className='uppercase pl-2 tracking-widest text-[#5651e5]'>Let's Connect</p>
               <div>
                 <div className='flex justify-between items-center w-full  sm:w-[85%]'>
                   <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:shadow-gray-400 hover:scale-110 ease-in duration-300'>
-                    <FaLinkedinIn />
+                    <FaLinkedinIn size={20} />
                   </div>
                   <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:shadow-gray-400 hover:scale-110 ease-in duration-300'>
-                    <FaInstagram />
+                    <FaInstagram size={20}/>
                   </div>
                   <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:shadow-gray-400 hover:scale-110 ease-in duration-300'>
-                    <FaGithub />
+                    <FaGithub size={20}/>
                   </div>
                   <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:shadow-gray-400 hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail />
+                    <AiOutlineMail size={20}/>
                   </div>
                   <div className='rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer hover:shadow-gray-400 hover:scale-110 ease-in duration-300'>
-                    <BsFillPersonLinesFill />
+                    <BsFillPersonLinesFill size={20}/>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
         </div>
+        
       </div>
 
 
