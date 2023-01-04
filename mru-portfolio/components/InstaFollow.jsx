@@ -2,8 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 //<Image src="/../public/assets/navLogo.png" alt="/" width='75' height='50' />
 
-import { AiOutlineMail, AiOutlineBell, AiFillInstagram } from 'react-icons/ai'
-import {BsInstagram} from 'react-icons/bs'
+import { AiOutlineMail, AiOutlineBell, } from 'react-icons/ai'
+import {BsInstagram, BsGithub, BsTwitter, BsLinkedin} from 'react-icons/bs'
 function InstaFollow() {
     return (
         <div className='w-full h-[400px] flex justify-center'>
@@ -25,15 +25,15 @@ function InstaFollow() {
                         </div>
                         <div className='flex flex-[2] justify-evenly items-center'>{/* Numbers */}
                             <div className='flex justify-center text-center flex-col text-white'>
-                                <h2 className='text-[35px]'>6</h2>
+                                <h2 className='text-[30px]'>6</h2>
                                 <p>Projects</p>
                             </div>
                             <div className='flex justify-center text-center flex-col text-white'>
-                                <h2 className='text-[35px]'>505</h2>
+                                <h2 className='text-[30px]'>505</h2>
                                 <p>Followers</p>
                             </div>
                             <div className='flex justify-center text-center flex-col text-white'>
-                                <h2 className='text-[35px]'>485</h2>
+                                <h2 className='text-[30px]'>485</h2>
                                 <p>Following</p>
                             </div>
                         </div>
@@ -46,6 +46,18 @@ function InstaFollow() {
                                <p>XIE'24</p>
                             </div>
                         </div>
+                    </div>
+                    <div className='flex items-center'>{/*Links*/}
+                        <div className='p-2 mr-2 rounded-full bg-white cursor-pointer border-1 border-gray-200'>
+                            <BsGithub size={25}/>
+                        </div>
+                        <div className='p-2 mr-2 rounded-full bg-white cursor-pointer border-1 border-gray-200'>
+                            <BsLinkedin size={25}/>
+                        </div>
+                        <div className='p-2 rounded-full bg-white cursor-pointer border-1 border-gray-200'>
+                            <BsTwitter size={25}/>
+                        </div>
+
                     </div>
                     <div className='flex justify-between py-[4px]'>{/* buttons */}
                         <div className='flex w-full justify-around '>
