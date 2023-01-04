@@ -48,13 +48,13 @@ function InstaFollow() {
                         </div>
                     </div>
                     <div className='flex items-center'>{/*Links*/}
-                        <div className='p-2 mr-2 rounded-full bg-white cursor-pointer border-1 border-gray-200'>
+                        <div className='p-2 mr-2 hover:shadow-lg hover:shadow-gray-600 rounded-full bg-white cursor-pointer border-1 border-gray-200'>
                             <BsGithub size={25}/>
                         </div>
-                        <div className='p-2 mr-2 rounded-full bg-white cursor-pointer border-1 border-gray-200'>
+                        <div className='p-2 mr-2 hover:shadow-lg hover:shadow-gray-600 rounded-full bg-white cursor-pointer border-1 border-gray-200'>
                             <BsLinkedin size={25}/>
                         </div>
-                        <div className='p-2 rounded-full bg-white cursor-pointer border-1 border-gray-200'>
+                        <div className='p-2 hover:shadow-lg hover:shadow-gray-600 rounded-full bg-white cursor-pointer border-1 border-gray-200'>
                             <BsTwitter size={25}/>
                         </div>
 
