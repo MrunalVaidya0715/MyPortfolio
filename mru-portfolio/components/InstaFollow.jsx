@@ -50,14 +50,14 @@ function InstaFollow() {
                     <div className='flex justify-between py-[4px]'>{/* buttons */}
                         <div className='flex w-full justify-around '>
 
-                            <button className='p-[8px] bg-blue-400 border-[1px] border-gray-600 mr-[8px] w-full  text-white tracking-wider rounded-lg'>Follow</button>
+                            <button className='p-[8px] bg-blue-400 border-[1px] border-gray-600 mr-[8px] w-full  text-white tracking-wider rounded-lg hover:opacity-70 ease-in duration-100 active:opacity-40'>Follow</button>
 
-                            <button className='bg-[#553939] p-[8px]  border-[1px] border-gray-600 mr-[8px] w-full  text-white tracking-wider rounded-lg'>Message</button>
+                            <button className='bg-[#553939] p-[8px]  border-[1px] border-gray-600 mr-[8px] w-full  text-white tracking-wider rounded-lg hover:opacity-70 ease-in duration-100 active:opacity-40'>Message</button>
 
 
                         </div>
                         <div className='flex'>
-                            <button className='bg-[#553939] p-[8px] border-[1px] border-gray-600 text-white tracking-wider rounded-lg'><AiOutlineMail size={20} /></button>
+                            <button className='bg-[#553939] p-[8px] border-[1px] border-gray-600 text-white tracking-wider rounded-lg hover:opacity-70 ease-in duration-100 active:opacity-40'><AiOutlineMail size={20} /></button>
                         </div>
                     </div>
 
