@@ -14,7 +14,7 @@ function Navbar() {
 
 
   return (
-    <div className='fixed  w-full h-20 z-[100] shadow-xl'>
+    <div className='fixed  w-full h-20 z- shadow-xl'>
       <div className='flex justify-between items-center w-full h-full  px-10 2xl:px-16'>
         <Image src="/../public/assets/navLogo.png" alt="/" width='75' height='50' />
         <div>
@@ -66,21 +66,21 @@ function Navbar() {
 
           </div>
           <div className='py-4  flex flex-col justify-between'>
-            <ul className='uppercase ' >
+            <ul className='uppercase' >
               <Link href='/'>
-                <li className='py-3 m-3 text-sm hover:text-blue-400 hover:font-bold  ease-in-out duration-300'>Home</li>
+                <li className='py-3 m-3 text-md hover:text-blue-400 hover:ml-8  ease-in-out duration-300'>Home</li>
               </Link>
               <Link href='/'>
-                <li className='py-3  m-3 text-sm hover:text-blue-400 hover:font-bold  ease-in-out duration-300'>About</li>
+                <li className='py-3  m-3 text-md hover:text-blue-400 hover:ml-8  ease-in-out duration-300'>About</li>
               </Link>
               <Link href='/'>
-                <li className='py-3  m-3 text-sm hover:text-blue-400 hover:font-bold  ease-in-out duration-300'>Skills</li>
+                <li className='py-3  m-3 text-md hover:text-blue-400 hover:ml-8 ease-in-out duration-300'>Skills</li>
               </Link>
               <Link href='/'>
-                <li className='py-3  m-3 text-sm hover:text-blue-400 hover:font-bold  ease-in-out duration-300'>Projects</li>
+                <li className='py-3  m-3 text-md hover:text-blue-400 hover:ml-8 ease-in-out duration-300'>Projects</li>
               </Link>
               <Link href='/'>
-                <li className='py-3 m-3  text-sm hover:text-blue-400 hover:font-bold  ease-in-out duration-300'>Contact</li>
+                <li className='py-3 m-3  text-md hover:text-blue-400  hover:ml-8 ease-in-out duration-300'>Contact</li>
               </Link>
 
             </ul>
