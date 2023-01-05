@@ -48,8 +48,8 @@ function Navbar() {
 
       </div>
       <div className={nav? 'md:hidden fixed left-0 top-0 h-screen w-full bg-black/70' : ''}>
-        <div className={nav?'fixed  left-0 top-0 bg-[#ecf0f3] px-10 py-1 h-screen w-[75%]  sm:w-[60%] md:w-[45%] ease-in duration-500':
-                         'fixed  left-[-100%] top-0 bg-[#ecf0f3] p-10 h-screen w-[75%]  sm:w-[60%] md:w-[45%] ease-in duration-500'}>
+        <div className={nav?'fixed  right-0 top-0 bg-[#ecf0f3] px-10 py-1 h-screen w-[75%]  sm:w-[60%] md:w-[45%] ease-in duration-500':
+                         'fixed  right-[-100%] top-0 bg-[#ecf0f3] p-10 h-screen w-[75%]  sm:w-[60%] md:w-[45%] ease-in duration-500'}>
           <div>
             <div className='flex items-center justify-between'>
               <Image src="/../public/assets/navLogo.png" alt="/" width='75' height='35' />
