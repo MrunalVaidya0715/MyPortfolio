@@ -5,6 +5,8 @@ import Navbar from '../components/Navbar'
 import Main from '../components/Main'
 import About from '../components/About'
 import InstaFollow from '../components/InstaFollow'
+import Contact from '../components/Contact'
+import Skills from '../components/Skills'
 
 
 
@@ -23,7 +25,10 @@ export default function Home() {
       <Navbar/>
       <Main/>
       <About/>
-      <InstaFollow/>
+      <Skills/>
+      <Contact/>
+      
+      
           
       
       </div>
