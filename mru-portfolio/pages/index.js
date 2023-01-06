@@ -7,6 +7,7 @@ import About from '../components/About'
 import InstaFollow from '../components/InstaFollow'
 import Contact from '../components/Contact'
 import Skills from '../components/Skills'
+import Projects from '../components/Projects'
 
 
 
@@ -26,6 +27,7 @@ export default function Home() {
       <Main/>
       <About/>
       <Skills/>
+      <Projects/>
       <Contact/>
       
       
