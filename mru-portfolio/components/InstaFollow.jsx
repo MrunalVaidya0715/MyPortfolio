@@ -14,7 +14,7 @@ function InstaFollow() {
 
     return (
         <div className='w-full h-full flex justify-center'>
-            <div className='z-[80] bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-indigo-200 via-slate-600 to-indigo-200 w-[95%] sm:w-[560px] md:w-[530px] lg:w-[530px] 2xl:w-[530px] h-[530px]  p-[8px] rounded-t-[42px] flex justify-center items-center'>
+            <div className='z-[80] bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-indigo-200 via-slate-600 to-indigo-200 w-[95%] sm:w-[560px] md:w-[530px] lg:w-[530px] 2xl:w-[530px] h-[530px]  p-[8px] pb-[0px] rounded-t-[42px] flex justify-center items-center'>
                 {
                     dm ? (
 

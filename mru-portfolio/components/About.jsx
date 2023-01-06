@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import AboutImg from '../public/assets/about.jpg';
 
+
 const About = () => {
   return (
     <div id='about' className='w-full md:h-screen p-[8px] flex items-center py-16'>
@@ -12,6 +13,7 @@ const About = () => {
             About
           </p>
           <h2 className='py-4'>Who I Am</h2>
+          
           <p className='py-2 text-gray-600'>
             I specialize in building mobile responsive front-end UI applications
             that connect with API’s and other backend technologies. I’m
