@@ -38,24 +38,24 @@ function Navbar() {
 
 
   return (
-    <div className={shadow? ('fixed bg-white w-full h-20 z-[100] shadow-xl'):('fixed bg-white w-full h-20 z-[100]')}>
+    <div  className={shadow? ('fixed bg-white w-full h-20 z-[100] shadow-xl'):('fixed bg-white w-full h-20 z-[100]')}>
       <div className='flex justify-between items-center w-full h-full  px-10 2xl:px-16'>
         <Image src="/../public/assets/navLogo.png" alt="/" width='75' height='50' />
         <div>
           <ul className='hidden md:flex'>
-            <Link href="/">
+            <Link href="/#home">
               <li className='ml-10 text-lg uppercase border-b-2 hover:text-blue-400 hover:border-b-2 hover:border-black/60 ease-in duration-300'>Home</li>
             </Link>
-            <Link href="/">
+            <Link href="/#about">
               <li className='ml-10 text-lg uppercase border-b-2 hover:text-blue-400 hover:border-b-2 hover:border-black/60 ease-in duration-300'>About</li>
             </Link>
-            <Link href="/">
+            <Link href="/#skills">
               <li className='ml-10 text-lg uppercase border-b-2 hover:text-blue-400 hover:border-b-2 hover:border-black/60 ease-in duration-300'>Skills</li>
             </Link>
-            <Link href="/">
+            <Link href="/#proj">
               <li className='ml-10 text-lg uppercase border-b-2 hover:text-blue-400 hover:border-b-2 hover:border-black/60 ease-in duration-300'>Projects</li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact">
               <li className='ml-10 text-lg uppercase border-b-2 hover:text-blue-400 hover:border-b-2 hover:border-black/60 ease-in duration-300'>Contact</li>
             </Link>
 
@@ -91,19 +91,19 @@ function Navbar() {
           </div>
           <div className='py-4  flex flex-col justify-between'>
             <ul className='uppercase' >
-              <Link href='/'>
+              <Link href='/#home'>
                 <li className='py-3 m-3 text-md hover:text-blue-400 hover:ml-8  ease-in-out duration-300'>Home</li>
               </Link>
-              <Link href='/'>
+              <Link href='/#about'>
                 <li className='py-3  m-3 text-md hover:text-blue-400 hover:ml-8  ease-in-out duration-300'>About</li>
               </Link>
-              <Link href='/'>
+              <Link href='/#skills'>
                 <li className='py-3  m-3 text-md hover:text-blue-400 hover:ml-8 ease-in-out duration-300'>Skills</li>
               </Link>
-              <Link href='/'>
+              <Link href='/#proj'>
                 <li className='py-3  m-3 text-md hover:text-blue-400 hover:ml-8 ease-in-out duration-300'>Projects</li>
               </Link>
-              <Link href='/'>
+              <Link href='/#contact'>
                 <li className='py-3 m-3  text-md hover:text-blue-400  hover:ml-8 ease-in-out duration-300'>Contact</li>
               </Link>
 

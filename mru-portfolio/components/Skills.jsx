@@ -3,13 +3,14 @@ import React from 'react'
 
 function Skills() {
     return (
-        <div className=' max-w-[1240px] w-full md:h-screen m-auto p-4 '>
-            <div>
-                    <h1 className='text-blue-600 text-md'>Skills</h1>
-                </div>
+        <div id='skills' className=' max-w-[1240px] w-full md:h-screen m-auto p-4 '>
+
             <div className='flex justify-center w-full h-full flex-col'>
-                
-                <div className='grid grid-cols-2  md:grid-cols-3 lg:grid-cols-4  gap-4 p-[20px] '>
+                <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
+                    Skills
+                </p>
+
+                <div className='grid grid-cols-2  md:grid-cols-3 lg:grid-cols-4  gap-8 py-[20px] '>
                     <div className='flex items-center justify-around bg-white shadow-md hover:shadow-2xl rounded-lg p-[35px] ease-in duration-200'>
                         <Image src='/../public/assets/skills/html.png' width="65" height="50" alt="Not found" />
                         <div>
@@ -52,14 +53,14 @@ function Skills() {
                             <p className='font-bold text-xl'>NODE JS</p>
                         </div>
                     </div>
-                   
+
                     <div className='flex items-center justify-around bg-white shadow-md hover:shadow-2xl rounded-lg p-[35px] ease-in duration-200'>
                         <Image src='/../public/assets/skills/mongo.png' width="65" height="50" alt="Not found" />
                         <div>
                             <p className='font-bold text-xl'>MONGO DB</p>
                         </div>
                     </div>
-                    
+
 
 
 
