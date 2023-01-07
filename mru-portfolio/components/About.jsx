@@ -14,7 +14,7 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <div className='bg-gray-200 p-2 rounded-xl my-4'>
-            <h2 className='py-2 text-gray-600 text-justify'>
+            <h2 className='py-2 text-gray-600 text-left'>
               Pursing: B.E. Information Technology
               
             </h2>

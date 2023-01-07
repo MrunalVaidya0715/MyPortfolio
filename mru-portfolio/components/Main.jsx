@@ -26,8 +26,8 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaLinkedinIn />
+              <div className='mx-[8px] rounded-full shadow-lg shadow-gray-400 p-9 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <FaLinkedinIn size={25}/>
               </div>
             </a>
             <a
@@ -35,18 +35,18 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaGithub />
+              <div className='mx-[8px] rounded-full shadow-lg shadow-gray-400 p-9 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <FaGithub size={25}/>
               </div>
             </a>
             <Link href='/#contact'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiOutlineMail />
+              <div className='mx-[8px] rounded-full shadow-lg shadow-gray-400 p-9 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <AiOutlineMail size={25}/>
               </div>
             </Link>
             <Link href='/resume'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <BsFillPersonLinesFill />
+              <div className='mx-[8px] rounded-full shadow-lg shadow-gray-400 p-9 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <BsFillPersonLinesFill size={25}/>
               </div>
             </Link>
           </div>
