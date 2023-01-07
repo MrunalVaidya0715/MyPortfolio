@@ -27,7 +27,7 @@ function Navbar() {
     
     }
     window.addEventListener('scroll',handleShadow)
-    console.log("ShadowEffect")
+    //console.log("ShadowEffect")
     
     return () => {
       window.removeEventListener('scroll', handleShadow)
@@ -92,19 +92,19 @@ function Navbar() {
           <div className='py-4  flex flex-col justify-between'>
             <ul className='uppercase' >
               <Link href='/#home'>
-                <li className='py-3 m-3 text-md hover:text-blue-400 hover:ml-8  ease-in-out duration-300'>Home</li>
+                <li onClick={()=>setNav(false)} className='py-3 m-3 text-md hover:text-blue-400 hover:ml-8  ease-in-out duration-300'>Home</li>
               </Link>
               <Link href='/#about'>
-                <li className='py-3  m-3 text-md hover:text-blue-400 hover:ml-8  ease-in-out duration-300'>About</li>
+                <li onClick={()=>setNav(false)} className='py-3  m-3 text-md hover:text-blue-400 hover:ml-8  ease-in-out duration-300'>About</li>
               </Link>
               <Link href='/#skills'>
-                <li className='py-3  m-3 text-md hover:text-blue-400 hover:ml-8 ease-in-out duration-300'>Skills</li>
+                <li onClick={()=>setNav(false)} className='py-3  m-3 text-md hover:text-blue-400 hover:ml-8 ease-in-out duration-300'>Skills</li>
               </Link>
               <Link href='/#proj'>
-                <li className='py-3  m-3 text-md hover:text-blue-400 hover:ml-8 ease-in-out duration-300'>Projects</li>
+                <li onClick={()=>setNav(false)} className='py-3  m-3 text-md hover:text-blue-400 hover:ml-8 ease-in-out duration-300'>Projects</li>
               </Link>
               <Link href='/#contact'>
-                <li className='py-3 m-3  text-md hover:text-blue-400  hover:ml-8 ease-in-out duration-300'>Contact</li>
+                <li onClick={()=>setNav(false)} className='py-3 m-3  text-md hover:text-blue-400  hover:ml-8 ease-in-out duration-300'>Contact</li>
               </Link>
 
             </ul>
