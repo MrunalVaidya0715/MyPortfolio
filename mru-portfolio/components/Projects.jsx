@@ -11,7 +11,7 @@ import ProjectItem from './ProjectItem'
 
 function Projects() {
   return (
-    <div id='proj' className='w-full p-4'>
+    <div id='projects' className='w-full p-4'>
       <div className='max-w-[1240px] mx-auto px-2 py-16 '>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Projects
@@ -26,17 +26,17 @@ function Projects() {
           <ProjectItem
             title='Twitch App'
             backgroundImg={twitchImage}
-            imageUrl="/property"
+            imageUrl="/twitch"
           />
           <ProjectItem
             title='Crypto App'
             backgroundImg={cryptoImage}
-            imageUrl="/property"
+            imageUrl="/crypto"
           />
           <ProjectItem
             title='Netflix App'
             backgroundImg={netflixImage}
-            imageUrl="/property"
+            imageUrl="/netflix"
           />
 
         </div>
